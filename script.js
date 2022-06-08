@@ -97,7 +97,7 @@ if (estrela == 2){
 if (estrela == 1){ 
  if (s1 == url + "estrela.png") {
  document.getElementById("s1").src = "star.png";
- document.getElementById("s2").src =  "/estrela.png";
+ document.getElementById("s2").src =  "estrela.png";
  document.getElementById("s3").src = "estrela.png";
  document.getElementById("s4").src =  "estrela.png";
  document.getElementById("s5").src =  "estrela.png";
