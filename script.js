@@ -23,91 +23,91 @@ function Avaliar(estrela) {
  var avaliacao = 0;
 
 if (estrela == 5){ 
- if (s5 == url + "img/estrela.png") {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/star.png";
- document.getElementById("s4").src = "/img/star.png";
- document.getElementById("s5").src = "/img/star.png";
+ if (s5 == url + "estrela.png") {
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "star.png";
+ document.getElementById("s4").src = "star.png";
+ document.getElementById("s5").src = "star.png";
  avaliacao = 5;
  } else {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/star.png";
- document.getElementById("s4").src = "/img/star.png";
- document.getElementById("s5").src = "/img/estrela.png";
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "star.png";
+ document.getElementById("s4").src = "star.png";
+ document.getElementById("s5").src = "estrela.png";
  avaliacao = 4;
 }}
  
  //ESTRELA 4
 if (estrela == 4){ 
- if (s4 == url + "img/estrela.png") {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/star.png";
- document.getElementById("s4").src = "/img/star.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ if (s4 == url + "estrela.png") {
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "star.png";
+ document.getElementById("s4").src = "star.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 4;
  } else {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/star.png";
- document.getElementById("s4").src =  "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "star.png";
+ document.getElementById("s4").src =  "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 3;
 }}
 
 //ESTRELA 3
 if (estrela == 3){ 
- if (s3 == url + "img/estrela.png") {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/star.png";
- document.getElementById("s4").src = "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ if (s3 == url + "estrela.png") {
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "star.png";
+ document.getElementById("s4").src = "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 3;
  } else {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/estrela.png";
- document.getElementById("s4").src = "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "estrela.png";
+ document.getElementById("s4").src = "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 2;
 }}
  
 //ESTRELA 2
 if (estrela == 2){ 
- if (s2 == url + "img/estrela.png") {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src = "/img/star.png";
- document.getElementById("s3").src = "/img/estrela.png";
- document.getElementById("s4").src = "/img/estrela.png";
- document.getElementById("s5").src = "/img/estrela.png";
+ if (s2 == url + "estrela.png") {
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src = "star.png";
+ document.getElementById("s3").src = "estrela.png";
+ document.getElementById("s4").src = "estrela.png";
+ document.getElementById("s5").src = "estrela.png";
  avaliacao = 2;
  } else {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src =  "/img/estrela.png";
- document.getElementById("s3").src = "/img/estrela.png";
- document.getElementById("s4").src = "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src =  "estrela.png";
+ document.getElementById("s3").src = "estrela.png";
+ document.getElementById("s4").src = "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 1;
 }}
  
  //ESTRELA 1
 if (estrela == 1){ 
- if (s1 == url + "img/estrela.png") {
- document.getElementById("s1").src = "/img/star.png";
- document.getElementById("s2").src =  "/img/estrela.png";
- document.getElementById("s3").src = "/img/estrela.png";
- document.getElementById("s4").src =  "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ if (s1 == url + "estrela.png") {
+ document.getElementById("s1").src = "star.png";
+ document.getElementById("s2").src =  "/estrela.png";
+ document.getElementById("s3").src = "estrela.png";
+ document.getElementById("s4").src =  "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 1;
  } else {
- document.getElementById("s1").src =  "/img/estrela.png";
- document.getElementById("s2").src =  "/img/estrela.png";
- document.getElementById("s3").src =  "/img/estrela.png";
- document.getElementById("s4").src =  "/img/estrela.png";
- document.getElementById("s5").src =  "/img/estrela.png";
+ document.getElementById("s1").src =  "estrela.png";
+ document.getElementById("s2").src =  "estrela.png";
+ document.getElementById("s3").src =  "estrela.png";
+ document.getElementById("s4").src =  "estrela.png";
+ document.getElementById("s5").src =  "estrela.png";
  avaliacao = 0;
 }}
  
