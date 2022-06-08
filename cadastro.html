@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  
+</head>
+
+<body>
+ <header class="menu-principal">
+    <main>
+    
+      <div class="header-1">
+    
+        <div class="logo">
+        <img src="/img/logo.png" width="90" height="50">
+        </div>
+      
+        <div class="redes-sociais">
+          <ul>
+            <li> <input placeholder="Busca" type="text"></li>
+             <li><a href="https://www.facebook.com/"><img src="/img/facebook.png" width="25" height="25"/></a></li>
+            <li><a href="https://www.instagram.com/"><img src="/img/instagram.png" width="25" height="25"/></a></li>
+            <li><a href="https://twitter.com/home?lang=pt"><img src="/img/twitter.png" width="25" height="25"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </header>
+  <main class="col-100 menu-urls">
+    <div class="header-2">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="login.html">Usuários</a></li>
+          <li><a href="cadastro.html">Cadastre-se</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        
+        </ul>
+      </div>
+     
+    </div>
+    <form style="text-align: center; padding: 15px;">
+      <tr>
+            <div>
+            <h2> Cadastrar Dados </h2>
+              <div class="busca3">
+                 <input placeholder="EMAIL" type="text"/>
+                  </div>
+<div class="busca3">
+       <input placeholder="NOME" type="text"/>
+               </div>      
+ <div class="busca3">
+      <input placeholder="SOBRENOME" 
+               </div>      
+               <div>
+                <div><br>
+                <label for="datanasc">Data de Nascimento:</label><br>
+                <input type="date" name="date" id="date"><br>
+            </div><br>
+ <div class="busca3">
+      <input placeholder="SENHA" type="text"/>
+           </div>             
+ <div class="busca3">
+      <input placeholder="CONFIRMAR SENHA" type="text"/>
+                
+      </div>
+               
+<br>
+<button onclick="fn()">Enviar</button>
+<div>
+    <p id="result"></p>
+</div>
+<button onclick="clear()">Limpar</button>
